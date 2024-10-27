@@ -1,4 +1,6 @@
 import random 
+
+# creates password, 10 characters long.
 print('your password: ')
 
 chars = 'abcdefghijklmnopqrstuvwxyz1234567890?@#$%^*&!()?'
