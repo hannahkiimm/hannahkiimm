@@ -3,12 +3,12 @@ import random
 # creates password, 10 characters long.
 print('your password: ')
 
-chars = 'abcdefghijklmnopqrstuvwxyz1234567890?@#$%^*&!()?'
+chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890?@#$%^*&!()?'
 
 
 password = ''
 
-for x in range(10):
+for x in range(16):
     password += random.choice(chars)
 
 print(password)
